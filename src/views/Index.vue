@@ -274,7 +274,7 @@ async function changeMix(value: boolean) {
             locationX: 640,
             locationY: 0,
             pureAudio: false,
-            userId: 'yuanfei', // 本地摄像头占位，填写用于推摄像头流的 client userId
+            userId: 'testUser', // 本地摄像头占位，填写用于推摄像头流的 client userId
             zOrder: 1,
             roomId: store.roomId,
           },

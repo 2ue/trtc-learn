@@ -4,7 +4,7 @@ import { genTestUserSig } from '@/utils/generateTestUserSig';
 const appStore = defineStore('app', {
   state: () => ({
     sdkAppId: 1400680441,
-    userId: 'yuanfei',
+    userId: 'testUser',
     roomId: 8888,
     secretKey: 'a1adac874b116364cee6bd4af955b629c88d57e146c4ead62b37138a039e1a1c',
     userSig: '',
