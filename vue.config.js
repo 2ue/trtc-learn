@@ -6,6 +6,7 @@ const { ElementPlusResolver } = require('unplugin-vue-components/resolvers');
 
 module.exports = defineConfig({
   publicPath: './',
+  outputDir: 'doc',
   transpileDependencies: true,
   configureWebpack: {
     plugins: [
