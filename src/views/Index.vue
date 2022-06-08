@@ -264,7 +264,7 @@ async function changeMix(value: boolean) {
             locationX: 0,
             locationY: 0,
             pureAudio: false,
-            userId: 'shareyuanfei', // 本地屏幕分享占位，填写用于推屏幕分享流的 client userId
+            userId: 'shareTestUser', // 本地屏幕分享占位，填写用于推屏幕分享流的 client userId
             zOrder: 1,
             roomId: store.roomId,
           },
@@ -321,7 +321,7 @@ async function handleJoin() {
       sdkAppId: store.sdkAppId,
       userId: store.userId,
       userSig,
-      // userDefineRecordId: recordScreen.value ? 'record_user_yuanfei' : null,
+      // userDefineRecordId: recordScreen.value ? 'record_user_test_user' : null,
     });
     addSuccessLog(`Client [${store.userId}] created`);
     installEventHandlers();
